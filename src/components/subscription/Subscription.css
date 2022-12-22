@@ -1,5 +1,10 @@
 .sub-wrapper {
   background-color: var(--cyan);
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1.4em;
 }
 
 .sub-wrapper h2 {
@@ -13,8 +18,13 @@
   color: white;
 }
 .price-value {
-  font-size: 2em;
+  font-size: 2.5em;
+  margin-right: 0.4em;
 }
 .price-description {
   color: var(--light-gray);
+}
+
+.sub-wrapper p:not(.price-description) {
+  color: white;
 }

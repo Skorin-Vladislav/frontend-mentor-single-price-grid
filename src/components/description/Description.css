@@ -6,12 +6,15 @@
 
 .heading {
   color: var(--cyan);
+  margin-bottom: 1em;
 }
 
 .money-back {
   color: var(--bright-yellow);
+  margin-bottom: 1em;
 }
 
 .desc-text {
   color: var(--grayish-blue);
+  line-height: 1.6;
 }
