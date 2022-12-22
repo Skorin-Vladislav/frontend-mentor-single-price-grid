@@ -1,10 +1,11 @@
 import "./App.css";
-import Button from "./components/Button/Button";
-import Description from "./components/description/Description";
+import Subscription from "./components/subscription/Subscription";
 function App() {
-  return <div className="App">
-    <Description />
-  </div>;
+  return (
+    <div className="App">
+      <Subscription />
+    </div>
+  );
 }
 
 export default App;

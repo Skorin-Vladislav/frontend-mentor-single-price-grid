@@ -1,0 +1,20 @@
+.sub-wrapper {
+  background-color: var(--cyan);
+}
+
+.sub-wrapper h2 {
+  color: white;
+}
+
+.price-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.price-value {
+  font-size: 2em;
+}
+.price-description {
+  color: var(--light-gray);
+}
