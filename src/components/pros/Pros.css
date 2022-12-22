@@ -2,11 +2,14 @@
   background-color: #4abebd;
   text-align: left;
   padding: 1.4em;
+
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
 }
 
 .pros-wrapper h2 {
   color: var(--light-gray);
-  margin-bottom: 1em;
 }
 
 .pros-wrapper ul {

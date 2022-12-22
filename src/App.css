@@ -25,3 +25,34 @@
   grid-column-gap: 0px;
   grid-row-gap: 0px;
 }
+
+@media screen and (min-width: 750px) {
+  .App {
+    font-size: 1.2em;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "unified unified"
+      "left right";
+  }
+
+  .desc-wrapper {
+    grid-area: unified;
+    padding: 5% !important;
+  }
+
+  .sub-wrapper {
+    grid-area: left;
+    padding: 10% !important;
+  }
+
+  .pros-wrapper {
+    grid-area: right;
+    padding: 10% !important;
+  }
+
+  .btn {
+    padding: 6% !important;
+  }
+}

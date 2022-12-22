@@ -1,7 +1,7 @@
 .sub-wrapper {
   background-color: var(--cyan);
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-direction: column;
   align-items: flex-start;
   padding: 1.4em;
