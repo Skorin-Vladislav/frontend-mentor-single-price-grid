@@ -1,0 +1,17 @@
+.desc-wrapper {
+  background-color: white;
+  text-align: left;
+  padding: 1.4em;
+}
+
+.heading {
+  color: var(--cyan);
+}
+
+.money-back {
+  color: var(--bright-yellow);
+}
+
+.desc-text {
+  color: var(--grayish-blue);
+}
