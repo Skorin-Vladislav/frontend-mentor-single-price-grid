@@ -1,6 +1,6 @@
 import React from "react";
 import "./Subscription.css";
-import Button from "../button/Button";
+import Button from "../btn/Button";
 function Subscription() {
   return (
     <div className="sub-wrapper">
